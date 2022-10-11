@@ -1,0 +1,146 @@
+footer {
+    width: 100%;
+    height: 671px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F5F5F5;
+    .footer__wrapper {
+        position: relative;
+        height: 100%;
+        .footer__button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #F64F00;
+            button {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;  
+                border: 1px solid #F64F00;  
+                text-align: center;
+                padding: 55px 29px; 
+                font-size: 16px;
+                font-weight: 600; 
+                margin: 0;
+                color: #F64F00;
+                cursor: pointer;
+            }
+        }
+        .footer__logotype {
+            position: absolute;
+            bottom: 0;
+            right: 16px;
+        }
+        .footer__top-block {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            .top-block__title {
+                margin-right: 50px;
+            }
+            .top-block__social {
+                display: flex;
+                .tg {
+                    margin-right: 16px;
+                }
+            }
+        }
+        .footer__main-block {
+            width: 100%;
+            margin-top: 49px;
+            display: grid;
+            grid-template-columns: 355px auto;
+            grid-template-rows: 382px;
+            column-gap: 167px;
+            .main-block__section-1, .main-block__section-2, .main-block__section-3 {
+                .section-1__wrap {
+                    position: relative;
+                    font-size: 16px;
+                    height: 100%;
+                    line-height: 22px;
+                    .section-1__el-row, .section-1__el-row-s, .section-1__el {
+                        margin-top: 16px;
+                    }
+                    .section-1__el:first-child {
+                        margin-top: 0;
+                    }
+                    .el__sub {
+                        color: #BCBCBC;
+                    }
+                    .el__descr {
+                        margin-top: 4px;
+                    }
+                    .section-1__el-row {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .section-1__el-row-s {
+                        display: grid;
+                        grid-template-columns: auto 70px auto;
+                    }
+                    .section-1__el-bottom {
+                        position: absolute;
+                        bottom: 0;
+                    }
+                    .underline {
+                        text-decoration: underline;
+                        color: #7D7D7D;
+                    }
+                    
+                }
+/* -------------------------------------------------------------------------------------------- */
+                .section-2__wrap-1 {
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: 182px;
+                    line-height: 22px;
+                    margin-bottom: 56px;
+                    .section-2__el {
+                        .title {
+                            font-size: 18px;
+                            font-weight: 700;
+                            margin-bottom: 22px;
+                        }
+                        li {
+                            margin-bottom: 17px;
+                            a {
+                                color: #000;
+                            }
+                        }
+                        li:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .section-2__wrap-2 {
+                    position: relative;
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: 144px;
+                    line-height: 22px;
+                    .section-2__el {
+                        .title {
+                            font-size: 18px;
+                            font-weight: 700;
+                            margin-bottom: 24px;
+                        }
+                        li {
+                            margin-bottom: 16px;
+                            a {
+                                color: #000;
+                            }
+                        }
+                        li:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .s {
+                        position: absolute;
+                        bottom: 0;
+                        right: 196px;
+                    } 
+                }
+            }
+        }
+    }
+}

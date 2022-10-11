@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+    .container {
+        width: 1216px;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+        background:none;
+        border:none;
+        margin:0;
+        padding:0;
+        cursor: pointer;
+
+}
+
+
+@import 'blocks/header';
+@import 'blocks/sliders';
+@import 'blocks/common-elem';
+@import 'blocks/products';
+@import 'blocks/main';
+@import 'blocks/footer';

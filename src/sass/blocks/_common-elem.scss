@@ -1,0 +1,30 @@
+.radiant-orange {
+    width: 674px;
+    height: 634px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+    filter: blur(57px);
+}
+.radiant-blue {
+    width: 878px;
+    height: 645px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);
+    filter: blur(57px);
+}
+.short-dark {
+    width: 524px;
+    height: 524px;
+    background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);
+    filter: blur(57px);
+}
+.short-light{
+    width: 568px;
+    height: 568px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+    filter: blur(57px);
+}
+.container-2 {
+    width: 100%;
+}
